@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-image: url(../images/sample1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+label {
+  padding-left: 450px;
+}
+input[type='text'] {
+  padding: 12px 70px;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+}
+input[type='password'] {
+  padding: 12px 70px;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+}
+.box1 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+}
+.box2 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+}
+.box3 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.box4 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.box5 {
+  width: 100%;
+  text-align: center;
+}
+.b1 {
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+}
+.box6 {
+  width: 100%;
+}
+.b2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+.b3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+button {
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  outline: none;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
